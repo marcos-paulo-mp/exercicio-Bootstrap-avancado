@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página com Bootstrap</title>
+    <link href="./lib/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <a class="navbar-brand" href="#">CATÁLOGO DE FILMES EM EXBIÇÃO</a>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Venom.webp" class="d-block w-100" 
+                        alt="Imagem 1">
+                    <div class="carousel-caption">
+                    <h1 class="text-uppercase fw-light em-wide">Venom 3 A Última Rodada</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/natal.webp" class="d-block w-100"
+                        alt="Imagem 2">
+                    <div class="carousel-caption">
+                <h1 class="text-uppercase fw-light em-wide">Operação Natal</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/gladiador.webp" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption">
+                    <h1 class="text-uppercase fw-light em-wide">Gladiador II</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/img/venom2.jpg" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Venom: A Última Rodada </h5>
+                        <p class="card-text">Venom: A Última Rodada" traz Eddie Brock e Venom em fuga, perseguidos por alienígenas e forças da Terra. Com a pressão
+                        aumentando, a dupla enfrenta uma escolha decisiva, em meio a batalhas épicas e muita ação. Dirigido por Andy Serkis, o
+                        filme promete um desfecho emocionante para a saga. Classificação indicativa 14 Anos. Contém drogas lícitas, linguagem
+                        imprópria, violência.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="/img/natal2.webp" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Operação Natal</h5>
+                        <p class="card-text">Depois que um vilão sequestra o Papai Noel do Polo Norte, um agente E.L.F. (Extremamente Grande e Formidável) deve se
+                        unir ao rastreador mais renomado do mundo para encontrar o Papai Noel e salvar o Natal Classificação indicativa 12 Anos.
+                        Contém drogas lícitas, linguagem imprópria, violência.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/gladiador2.webp" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Gladiador II</h5>
+                        <p class="card-text">Do lendário diretor Ridley Scott, ‘Gladiador II’ continua a saga épica de poder, intriga e vingança ambientada na Roma Antiga. Anos depois de testemunhar a morte do venerado herói Maximus nas mãos de seu tio, Lucius (Paul Mescal) é forçado a entrar no Coliseu depois que seu lar é conquistado pelos imperadores tirânicos que agora comandam Roma com mão de ferro. Com a raiva em seu coração e o futuro do Império em jogo, Lucius deve olhar para o seu passado para encontrar força e honra para devolver a glória de Roma ao seu povo. Classificação indicativa 16 Anos. Contém drogas, linguagem imprópria, violência extrema.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/moana2.webp" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Moana 2</h5>
+                        <p class="card-text">Em Moana 2, Moana e Maui se reencontram após três anos para uma nova e incrível jornada com um grupo improvável de marujos. Após receber um chamado de seus ancestrais, Moana parte em uma jornada nos mares distantes da Oceania,desbravando águas perigosas, rumo a uma aventura diferente de todas as que já viveu. Classificação indicativa Verificar.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/wicked.webp" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Wicked</h5>
+                        <p class="card-text">Wicked é o prelúdio da famosa história de Dorothy e do Mágico de Oz, onde conhecemos a história não contada da Bruxa Boae da Bruxa Má do Oeste. Na trama, Elphaba (Cynthia Erivo) é uma jovem como outra qualquer do Reino de Oz, mas incompreendida por causa de sua pele verde incomum e por ainda não ter descoberto seu verdadeiro poder. Sua rotina é tranquila e pouco interessante, mas ao iniciar seus estudos na Universidade de Shiz, seu destino encontra Glinda (Ariana Grande), uma jovem popular e ambiciosa, nascida em berço de ouro, que só quer garantir seus privilégios e ainda não conhece sua verdadeira alma. As duas iniciam uma inesperada amizade.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="img/o-auto-da-compadecida2.webp" class="d-block w-100"
+                        style="width: 300px; height: 600px; object-fit: cover;" alt="Imagem do Card 6">
+                    <div class="card-body">
+                        <h5 class="card-title">O Auto da Compadecida 2</h5>
+                        <p class="card-text">Mais de vinte anos depois de O Auto da Compadecida (2000), João Grilo (Matheus Nachtergaele) e Chicó (Selton Mello) voltam para as telas brasileiras. O ator Luís Mirando também estará na produção, interpretando um personagem malandro que ensinou malandragens para João Grilo. Classificação indicativa Verificar.</p>
+                        <a href="#" class="btn btn-primary">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
